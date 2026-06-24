@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004577-blue)](https://doi.org/10.82901/nemar.on004577)
+
 May 25th 2023
 Neurodevelopment Research Unit, Instituto de Neurobiología, Universidad Nacional Autónoma de México
 

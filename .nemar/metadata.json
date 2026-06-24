@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004577",
-  "source": "openneuro",
-  "source_id": "ds004577",
+  "pipeline_stage": "enriched",
   "title": "Dataset containing resting EEG for a sample of 103 normal infants in the first year of life",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Thalía Harmony (Neurodevelopment Research Unit; Instituto de Neurobiología; Universidad Nacional Autónoma de México)": {},
     "Gloria Otero-Ojeda (Facultad de Medicina; Universidad Autónoma del Estado de México)": {},
@@ -11,27 +11,97 @@
     "Thalía Fernández (Neurodevelopment Research Unit; Instituto de Neurobiología; Universidad Nacional Autónoma de México)": {},
     "Lourdes Cubero-Rego (Neurodevelopment Research Unit; Instituto de Neurobiología; Universidad Nacional Autónoma de México)": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004577.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2022.119035",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004577",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004577",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.earlhumdev.2011.05.010",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2011.11.001",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.6.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "Dirección General Del Personal Académico IT200223"
+      "funder_name": "Dirección General Del Personal Académico",
+      "award_number": "IT200223"
     }
   ],
-  "acknowledgements": "The authors acknowledge Teresa Álvarez-Vázquez, Héctor Belmont-Tamayo, and Paulina Álvarez-García for their collaboration"
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "This dataset comprises resting-state electroencephalography (EEG) recordings from 103 healthy infants during the first year of life, with a total of 130 recordings distributed across four sessions. The dataset includes both longitudinal and cross-sectional data, providing a normative reference for early brain electrical activity and neurodevelopmental trajectories in infancy. These recordings serve as a foundation for understanding typical EEG patterns during critical periods of brain synaptogenesis and myelination. This NEMAR enriched version is derived from the OpenNeuro dataset (10.18112/openneuro.ds004577.v1.0.1) and includes standardized metadata and quality assurance enhancements.",
+  "methods_description": "Resting EEG recordings were collected from 103 normal infants (41 female, 62 male) in the first year of life. Data were acquired across 4 sessions with variable numbers of recordings per subject: 81 subjects with 1 recording, 18 subjects with 2 recordings, 3 subjects with 3 recordings, and 1 subject with 4 recordings, yielding 130 total EEG recordings.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "infant brain development"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "neurodevelopment"
+    },
+    {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "early childhood"
+    },
+    {
+      "term": "infant"
+    },
+    {
+      "term": "longitudinal"
+    },
+    {
+      "term": "normative reference"
+    },
+    {
+      "term": "normal development"
+    },
+    {
+      "term": "synaptogenesis"
+    },
+    {
+      "term": "myelination"
+    }
+  ],
+  "source_hash": "cc84a0ec557f9a56b72f1bc805fb1e75143876b6fab977641acf60ac28a68cb5"
 }

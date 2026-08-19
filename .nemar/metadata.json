@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Dataset containing resting EEG for a sample of 103 normal infants in the first year of life",
-  "description": "This dataset comprises resting-state electroencephalography (EEG) recordings from 103 typically developing infants during the first year of life, with a total of 130 recordings distributed across four sessions. The dataset includes both male (n=62) and female (n=41) participants and serves as a normative reference for early brain electrical activity and neurodevelopmental trajectories during infancy.",
+  "description": "This dataset comprises resting-state EEG recordings from 103 normal infants during the first year of life, including 130 recordings distributed across up to four sessions per subject. It was collected to characterize normative developmental EEG patterns and supports research on brain maturation, synaptogenesis, and myelination in early infancy.",
   "methods_description": "Resting EEG recordings were collected from 103 normal infants in the first year of life. The dataset includes 130 total EEG recordings distributed across 4 sessions, with variable numbers of recordings per subject (ranging from 1 to 4 recordings per infant).",
   "license": "CC0",
   "dataset_type": "raw",
@@ -18,34 +18,28 @@
       "term": "EEG"
     },
     {
-      "term": "infant development"
+      "term": "Infant",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007223"
     },
     {
       "term": "resting state"
     },
     {
-      "term": "brain electrical activity"
+      "term": "brain development"
     },
     {
-      "term": "neurodevelopment"
-    },
-    {
-      "term": "early childhood"
+      "term": "normative data"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.1016/j.neuroimage.2022.119035",
       "identifier_type": "DOI",
-      "relation_type": "References"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on004577",
-      "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004577",
+      "identifier": "https://github.com/nemarDatasets/on004577",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -63,6 +57,11 @@
       "identifier": "10.18112/openneuro.ds004577.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004577",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
